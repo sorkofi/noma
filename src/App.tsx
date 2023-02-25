@@ -1,5 +1,6 @@
 
 import {useState} from "react";
+import {Route, Router, Routes} from "react-router-dom";
 import { Dashboard } from "./components/Dashboard";
 import { Sidebar } from "./components/Sidebar";
 import { Window } from "./routes/Window";
@@ -17,8 +18,13 @@ function App() {
             { isWindowOpen &&
                 <Window state={isWindowOpen} setState={setWindowOpen} />
             }
-
-            <Dashboard />
+            
+            
+            <Routes>
+                <Route path="/" element={<Dashboard />}>
+                    <Route path="new" element={<h1>hello</h1>} />
+                </Route>
+            </Routes>
         </div>
   )
 }
