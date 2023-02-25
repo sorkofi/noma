@@ -1,0 +1,45 @@
+:root {
+    /* Desgin Color Variables */
+
+    --gray-full: #121212;
+    --gray-md: #232323;
+    --gray-sm: #898989
+
+}
+
+body { 
+    background-color: var(--gray-full);
+
+    font-family: monospace, sans;
+    color: var(--gray-sm);
+}
+
+p {
+    margin: 12px;
+
+    text-align: center;
+    padding: 12px;
+
+    font-size: small;
+    font-weight: bold;
+}
+
+.divider {
+    height: 1px;
+
+    width: 90%;
+
+    background: #ffffff16;
+
+    margin: 28px;
+}
+
+.sidebar_divider {
+    height: 2px;
+
+    width: 50%;
+
+    background: #ffffff16;
+    
+    margin-top: 14px;
+}

@@ -1,0 +1,29 @@
+.sidebar {
+    width: 48px;
+    height: 95vh;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    position:fixed;
+
+    border-radius: 10px;
+
+    background: var(--gray-md);
+}
+
+.icon {
+    filter: invert(75%);
+    width: 24px;
+    margin-top: 16px;
+    transition:linear .2s;
+    border-radius: 100%;
+    padding: 6px;
+}
+.icon:hover {
+    background: #c4c4c455;
+    cursor: pointer;
+}
