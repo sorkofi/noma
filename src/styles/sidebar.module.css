@@ -1,12 +1,14 @@
 .sidebar {
     width: 48px;
-    height: 95vh;
+    height: 30vh;
 
     display: flex;
 
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+
+    bottom: 40vh;
 
     position:fixed;
 

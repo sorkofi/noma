@@ -2,7 +2,9 @@
 /* TODO: Responsivity of panels in relation to Dashboard. */
 .dashboard {
     display: flex;
+
     justify-content: space-between;
+    flex-direction: row;
 
     height: 75vh;
     margin-left: 78px;
@@ -12,9 +14,21 @@
 }
 
 .panel {
-    width: 200px;
+    width: 40%; 
     height: 200px;
     border-radius: 10px;  
+    
+    margin: 10px;
+
+    background: var(--gray-md);
+    border: 1px solid #ffffff16;
+
+    transition: linear .2s;
+}
+.widget_panel {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
     
     margin: 10px;
 
@@ -36,7 +50,8 @@
 .widgets {
     display: flex;
 
+    margin: 8rem 4rem 0 0;
+
     flex-direction: column;
 
-    margin: 2rem 4rem 0 0;
 }

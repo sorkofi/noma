@@ -21,7 +21,7 @@ export const Dashboard = () => {
             <div className={styles.widgets}>
                 {
                     [0,1,2].map((p) => {
-                        return <div className={styles.panel}>Placeholder panel</div>
+                        return <div className={styles.widget_panel}>Placeholder panel</div>
                     })
                 }
             </div>
