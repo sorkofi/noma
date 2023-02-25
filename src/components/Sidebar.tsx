@@ -23,13 +23,19 @@ export const Sidebar = (args: Props) => {
     
     return (
         <div className={styles.sidebar}>
-            <Link to="new">
+            <Link to="newNote">
                 <img className={styles.icon} src={quill} onClick={() => handleClick()} />
             </Link>
-            <img className={styles.icon} src={mindmap} onClick={() => handleClick()} />
-            
+
+            <Link to="newMindMap">
+                <img className={styles.icon} src={mindmap} onClick={() => handleClick()} />
+            </Link>
+
             <div className="sidebar_divider" />
-            <img className={styles.icon} src={gear} onClick={() => handleClick()} />
+            
+            <Link to="settings">
+                <img className={styles.icon} src={gear} onClick={() => handleClick()} />
+            </Link>
 
 
         </div>

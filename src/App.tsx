@@ -22,7 +22,6 @@ function App() {
             
             <Routes>
                 <Route path="/" element={<Dashboard />}>
-                    <Route path="new" element={<h1>hello</h1>} />
                 </Route>
             </Routes>
         </div>
