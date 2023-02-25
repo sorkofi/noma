@@ -1,0 +1,21 @@
+.window_shadow {
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #000000bb;
+}
+
+.window_panel {
+    width: 78vw;
+    height: 90vh;
+
+    background: var(--gray-md);
+    border-radius: 10px;
+}
