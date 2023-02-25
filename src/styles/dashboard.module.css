@@ -2,6 +2,7 @@
 /* TODO: Responsivity of panels in relation to Dashboard. */
 .dashboard {
     display: flex;
+    justify-content: space-between;
 
     height: 75vh;
     margin-left: 78px;
@@ -34,5 +35,8 @@
 
 .widgets {
     display: flex;
+
     flex-direction: column;
+
+    margin: 2rem 4rem 0 0;
 }

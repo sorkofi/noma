@@ -9,7 +9,7 @@ export const Dashboard = () => {
     
     return (
         <div className={styles.dashboard}>
-            <div className={styles.workstation}>
+            <div className={styles.workspace}>
                 <p>Recent Notes</p>
                 <RecentSection />
 
